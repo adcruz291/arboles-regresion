@@ -1,0 +1,38 @@
+{
+  "viviendas_california.csv": {
+    "tema": "Bienes raíces",
+    "objetivo": "valor_casa_100k_usd (valor mediano de la vivienda, cientos de miles de USD)",
+    "descripcion": "Censo de California 1990: 20 640 distritos con ingreso, edad de las casas, ocupación y ubicación.",
+    "fuente": "scikit-learn: fetch_california_housing"
+  },
+  "diabetes_progresion.csv": {
+    "tema": "Salud",
+    "objetivo": "progresion_diabetes (índice de avance de la enfermedad un año después)",
+    "descripcion": "442 pacientes con diabetes: edad, sexo, IMC, presión y 6 análisis de sangre.",
+    "fuente": "scikit-learn: load_diabetes (Efron et al., 2004)"
+  },
+  "bicicletas_demanda.csv": {
+    "tema": "Movilidad urbana",
+    "objetivo": "bicis_rentadas (bicicletas rentadas en esa hora)",
+    "descripcion": "Sistema de bicicletas compartidas de Washington D.C. 2011-2012, por hora, con clima y calendario.",
+    "fuente": "OpenML 42712 (Bike Sharing Demand, UCI)"
+  },
+  "autos_rendimiento.csv": {
+    "tema": "Automotriz",
+    "objetivo": "rendimiento_km_l (kilómetros por litro de gasolina)",
+    "descripcion": "398 autos de 1970-1982: cilindros, motor, potencia, peso y origen.",
+    "fuente": "OpenML autoMpg (UCI Auto MPG)"
+  },
+  "vino_calidad.csv": {
+    "tema": "Alimentos y química",
+    "objetivo": "calidad (calificación de catadores, 0 a 10)",
+    "descripcion": "1 599 vinos tintos portugueses (Vinho Verde) con 11 mediciones fisicoquímicas.",
+    "fuente": "OpenML 40691 (UCI Wine Quality, Cortez et al., 2009)"
+  },
+  "concreto_resistencia.csv": {
+    "tema": "Ingeniería civil",
+    "objetivo": "resistencia_mpa (resistencia a la compresión, megapascales)",
+    "descripcion": "1 030 mezclas de concreto: cantidad de cada ingrediente y días de curado.",
+    "fuente": "OpenML 4353 (UCI Concrete Compressive Strength, Yeh, 1998)"
+  }
+}
