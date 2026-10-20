@@ -51,3 +51,19 @@ En cada nodo el árbol prueba umbrales de cada variable (`MedInc <= 5.09`) y eli
 - Script corre sin errores y genera 3 gráficas.
 - Puedes explicar por qué el árbol sin límites sobreajusta.
 - Puedes leer una regla del árbol y predecir a mano un caso.
+
+## Actividad para el grupo (`actividad.py`)
+Versión genérica del script para la actividad práctica: analiza cualquier CSV y **no interpreta** los
+resultados (eso lo hacen los equipos).
+
+```bash
+python actividad.py datasets_actividad/seguros_gasto_medico.csv   # objetivo = última columna
+python actividad.py mis_datos.csv --objetivo precio                # otra columna como objetivo
+```
+
+- Detecta separador `,` o `;` y codificación UTF-8 o Latin-1; quita columnas casi vacías y columnas de
+  texto con más de 30 valores distintos; convierte el resto del texto a 0/1.
+- `datasets_actividad/`: 6 datasets nuevos (seguros, diamantes, abulón, ruido de ala, rentas en Brasil,
+  salarios 1985), distintos de los de la presentación.
+- Carpetas que se entregan a cada equipo (script, CSV y hoja de trabajo con rúbrica):
+  https://github.com/adcruz291/actividad-arboles
